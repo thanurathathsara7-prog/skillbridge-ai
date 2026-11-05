@@ -20,6 +20,8 @@ jobs:
       run: |
         npm install
         npm run build
+      # ඔයාගේ files වැටිලා තියෙන්නේ වෙනම folder එකක් ඇතුළේ නම්, පහළ line එකේ "folder-name" වෙනුවට ඒ නම දාන්න (නැත්නම් මේක මෙහෙමම තියන්න):
+      # working-directory: ./folder-name
 
     - name: Add Capacitor Android
       run: |
